@@ -1,0 +1,63 @@
+{
+  "errors": null,
+  "responseData": {
+    "AGREEMENTS": [
+      {
+        "name": "CONDITION_BSE_SERVICE_AGREEMENT",
+        "value": "aaa <a class=\"aep-red\" href={contractPath} target=\"blank\">assent</a>",
+        "parameters": [
+          {
+            "contractPath": "/home"
+          }
+        ]
+      },
+      {
+        "name": "CONDITION_CUSTOMER_AUTHORIZED_TERMS_LOA_MESSAGE",
+        "value": "I understand, <a class=\"aep-red\" href={contractGasPath} target=\"blank\">assent</a> to and have the authority to execute the \"<a class=\"aep-red\"  href={contractElectricPath} target=\"blank\">Electricity Letter of Agency</a>\" <br> You may request a hard copy of this sales agreement.  AEP Energy will send a hard copy by mail within 3 business days after this request. You may rescind this sales agreement and authorization within 10 calendar days after electronic acceptance of the sales agreement, and may rescind the authorization for release of information at any time. You may request a hard copy of your sales agreement or request to rescind by calling into our toll-free telephone number at 1-866-258-3782 or email us at <a class=\"aep-red\"  href=\"mailto:care@AEPenergy.com\" target=\"blank\">care@AEPenergy.com</a>",
+        "parameters": [
+          {
+            "contractGasPath": "/home/agreements/LOA.pdf",
+            "contractElectricPath": "/home/agreements/LOA2.pdf"
+          }
+        ]
+      },
+      {
+        "name": "CONDITION_CREDIT_CHECK_AUTH_TERMS",
+        "value": "bbb <a class=\"aep-red\" href={contractPath} target=\"blank\">bbb</a>",
+        "parameters": [
+          {
+            "contractPath": "/home/871236712.pdf"
+          }
+        ]
+      },
+      {
+        "name": "CONDITION_GREEN_TERMS",
+        "value": "I have read and accept the <a class=\"aep-red\" href=\"http://aepenergy.com/pdf/AEP-Energy-Res-Green-PTC.pdf\" target=\"blank\" >Green-e Energy terms and conditions</a> [PDF]"
+      },
+      {
+        "name": "CONDITION_CUSTOMER_AUTHORIZED_TERMS",
+        "value": "ddd <a class=\"aep-red\" href='#here' target='_blank'>here</a>"
+      },
+      {
+        "name": "CONDITION_CUSTOMER_AUTHORIZED_TERMS_COMED",
+        "value": "eee"
+      },
+      {
+        "name": "CONDITION_CUSTOMER_AUTHORIZED_TERMS_COMED_LOA",
+        "value": "fff"
+      },
+      {
+        "name": "CONDITION_LDC_EMAIL_TERMS_NJ",
+        "value": "ggg"
+      },
+      {
+        "name": "CONDITION_LDC_WITHDRAWAL_TERMS_NJ",
+        "value": "hhh"
+      },
+      {
+        "name": "CONDITION_LDC_AUTHORIZED_TERMS_NJ",
+        "value": "iii"
+      }
+    ]
+  }
+}

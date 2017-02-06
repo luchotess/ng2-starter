@@ -1,0 +1,7 @@
+{
+  "errors": null,
+  "responseData": {
+    "TEXT_INPUT": "5",
+    "TEXT_PATTERN": "[0-9]*"
+  }
+}

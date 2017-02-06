@@ -1,0 +1,29 @@
+{
+  "errors": null,
+  "responseData": [
+    {
+      "id": 55,
+      "commodityTypeId": "ELECTRICAL",
+      "partyRoleTypeID": "UTIL",
+      "organizationName": "Columbus Southern Power",
+      "isActive": "Y",
+      "utilityCode": "UTL_CLST"
+    },
+    {
+      "id": 525,
+      "commodityTypeId": "ELECTRICAL",
+      "partyRoleTypeID": "UTIL",
+      "organizationName": "Another Power",
+      "isActive": "Y",
+      "utilityCode": "UTL_CT"
+    },
+    {
+      "id": 104,
+      "commodityTypeId": "NATURAL_GAS",
+      "partyRoleTypeID": "UTIL",
+      "organizationName": "Columbia Gas of Ohio",
+      "isActive": "N",
+      "utilityCode": "UTL_CLGS"
+    }
+  ]
+}

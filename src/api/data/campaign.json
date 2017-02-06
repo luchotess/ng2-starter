@@ -1,0 +1,227 @@
+{
+  "errors": null,
+  "responseData": {
+    "utilityList": [
+      {
+        "id": 58,
+        "commodityTypeId": "ELECTRICAL",
+        "partyRoleTypeID": "UTIL",
+        "state": null,
+        "organizationName": "Duke Energy",
+        "isActive": "Y",
+        "utilityCode": "UTL_DKEN",
+        "dunsNumber": "006999189",
+        "utilityName": "Duke Energy"
+      },
+      {
+        "id": 111,
+        "commodityTypeId": "NATURAL_GAS",
+        "partyRoleTypeID": "UTIL",
+        "state": null,
+        "organizationName": "Duke Energy",
+        "isActive": "N",
+        "utilityCode": "UTL_DKGS",
+        "dunsNumber": "006999189",
+        "utilityName": "Duke Energy Natural Gas"
+      }
+    ],
+    "offerList": [
+      {
+        "offerId": 0,
+        "title": "TC_06_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM_HEADER",
+        "offerCode": "TC_06_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM",
+        "campaignCode": "TC_06_CAMPAIGN_CODE_FLOW_ELECTRIC_WEB_AQ",
+        "green": false,
+        "commodity": "ELECTRICAL",
+        "specialOffer": false,
+        "termBundle": {
+          "summaryType": "month",
+          "summary": "4",
+          "filter": "4",
+          "terms": [
+            {
+              "utilityName": "Duke Energy",
+              "type": "month",
+              "value": 21.000000,
+              "symbol": "&cent;",
+              "measure": "kwh",
+              "language": "per kWh",
+              "term": "1",
+              "summer": null,
+              "discountAmount": null,
+              "kWhRate": null,
+              "kWRate": null,
+              "monthlyRate": null,
+              "rateCode": null,
+              "basePrice": 0.210000,
+              "durationMonth": "1",
+              "durationDate": null,
+              "ccfRate": null,
+              "monthlyNymex": null,
+              "pricingType": null,
+              "price": null
+            },
+            {
+              "utilityName": "Duke Energy",
+              "type": "month",
+              "value": 33.000000,
+              "symbol": "&cent;",
+              "measure": "kwh",
+              "language": "per kWh",
+              "term": "3",
+              "summer": null,
+              "discountAmount": null,
+              "kWhRate": null,
+              "kWRate": null,
+              "monthlyRate": null,
+              "rateCode": null,
+              "basePrice": 0.330000,
+              "durationMonth": "3",
+              "durationDate": null,
+              "ccfRate": null,
+              "monthlyNymex": null,
+              "pricingType": null,
+              "price": null
+            }
+          ]
+        },
+        "etf": {
+          "value": "12.000000",
+          "symbol": "$",
+          "description": "early termination fee"
+        },
+        "tags": [],
+        "utilitys": [
+          "Duke Energy"
+        ],
+        "utilityIDs": [
+          58
+        ],
+        "greenType": null,
+        "productCode": "FPAI",
+        "greenPercentage": "0",
+        "billingType": "BT_DUAL",
+        "cancellationType": "CT_FLATFEE",
+        "cancellationFee": 12.000000,
+        "changeFee": 10.000000,
+        "autoRenewFlag": "N",
+        "contractSubFolder": "DUK13.04-5.60-12.pdf",
+        "contractFilePath": "%2Fhome%2Fmmc-legacy%2FDUK13.04-5.60-12.pdf",
+        "subTitle": "TC_06_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM_SUB_HEADER",
+        "description": "TC_06_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM For Campaign Code Flow - Jossep",
+        "termType": "By Month",
+        "termValue": "4",
+        "creditCheckFlag": "N",
+        "cancellationLanguage": "flat fee",
+        "territoryCode": "DUKE_OH",
+        "channel": "WEB",
+        "affinityPartnerName": null,
+        "promoCode": null,
+        "contractSourceType": "CONTLEG_SOURCE",
+        "rateType": "Fixed",
+        "open": false,
+        "territoryDescription": "Duke OH",
+        "marketingCollateralFilePath": null,
+        "disclosureFlag": "N"
+      },
+      {
+        "offerId": 0,
+        "title": "TC_07_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM_HEADER",
+        "offerCode": "TC_07_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM",
+        "campaignCode": "TC_07_CAMPAIGN_CODE_FLOW_GAS_WEB_AQ_WEB_AQ",
+        "green": false,
+        "commodity": "NATURAL_GAS",
+        "specialOffer": false,
+        "termBundle": {
+          "summaryType": "month",
+          "summary": "4",
+          "filter": "4",
+          "terms": [
+            {
+              "utilityName": "Duke Energy Natural Gas",
+              "type": "month",
+              "value": 0.0419,
+              "symbol": "$",
+              "measure": "CCF",
+              "language": "per Ccf",
+              "term": "2",
+              "summer": null,
+              "discountAmount": null,
+              "kWhRate": null,
+              "kWRate": null,
+              "monthlyRate": null,
+              "rateCode": null,
+              "basePrice": null,
+              "durationMonth": "2",
+              "durationDate": null,
+              "ccfRate": 0.0419,
+              "monthlyNymex": null,
+              "pricingType": "STANDARD",
+              "price": "$0.0419"
+            },
+            {
+              "utilityName": "Duke Energy Natural Gas",
+              "type": "month",
+              "value": 0.0469,
+              "symbol": "$",
+              "measure": "CCF",
+              "language": "per Ccf",
+              "term": "2",
+              "summer": null,
+              "discountAmount": null,
+              "kWhRate": null,
+              "kWRate": null,
+              "monthlyRate": null,
+              "rateCode": null,
+              "basePrice": null,
+              "durationMonth": "2",
+              "durationDate": null,
+              "ccfRate": 0.0469,
+              "monthlyNymex": null,
+              "pricingType": "STANDARD",
+              "price": "$0.0469"
+            }
+          ]
+        },
+        "etf": {
+          "value": "4.000000",
+          "symbol": "$",
+          "description": "early termination fee"
+        },
+        "tags": [],
+        "utilitys": [
+          "Duke Energy Natural Gas"
+        ],
+        "utilityIDs": [
+          111
+        ],
+        "greenType": null,
+        "productCode": "FPAI",
+        "greenPercentage": "0",
+        "billingType": "BT_RR",
+        "cancellationType": "CT_FLATFEE",
+        "cancellationFee": 4.000000,
+        "changeFee": 5.000000,
+        "autoRenewFlag": "N",
+        "contractSubFolder": "DUK13.06.10-AFF-5.40-10.pdf",
+        "contractFilePath": "%2Fhome%2Fmmc-legacy%2FDUK13.06.10-AFF-5.40-10.pdf",
+        "subTitle": "TC_07_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM_SUB_HEADER",
+        "description": "TC_07_CAMPAIGN_FLOW_OFFER_NOT_GREEN_4_TERM For Campaign Code Flow - Jossep",
+        "termType": "By Month",
+        "termValue": "4",
+        "creditCheckFlag": "N",
+        "cancellationLanguage": "flat fee",
+        "territoryCode": "DUKE_GAS_OH",
+        "channel": "WEB",
+        "affinityPartnerName": null,
+        "promoCode": null,
+        "contractSourceType": "CONTLEG_SOURCE",
+        "rateType": "Fixed",
+        "open": false,
+        "territoryDescription": "Duke Gas OH",
+        "marketingCollateralFilePath": null,
+        "disclosureFlag": "N"
+      }
+    ]
+  }
+}

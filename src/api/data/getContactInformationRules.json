@@ -1,0 +1,473 @@
+{
+  "errors": null,
+  "responseData": {
+    "ACCOUNT_NUMBER": {
+      "UTL_OHPW": {
+        "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+        "PATTERN": "[0-9]+",
+        "MIN_LENGTH": "16",
+        "ERROR_MESSAGE": "Field requires 16 - 17 characters.",
+        "LABEL_MESSAGE": "Enter All 16 - 17 characters",
+        "INVOICE_SMALL": "/static/enrollment/invoices/UTL_OHPW-small.jpg",
+        "LABEL": "Service Delivery Identifier",
+        "COMMODITY": "ELECTRICAL",
+        "INVOICE": "/static/enrollment/invoices/UTL_OHPW.jpg",
+        "EMPTY_VALUE": "This field is required.",
+        "BUDGET_AVAILABILITY": "Y",
+        "MAX_LENGTH": "17"
+      },
+      "UTL_CLGS": {
+        "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+        "ERROR_MESSAGE": "Field requires 15 characters.",
+        "PATTERN": "[0-9]+",
+        "MIN_LENGTH": "15",
+        "LABEL_MESSAGE": "Enter All 15 characters",
+        "INVOICE_SMALL": "/static/enrollment/invoices/UTL_CLGS-small.jpg",
+        "LABEL": "Account Number",
+        "COMMODITY": "NATURAL_GAS",
+        "INVOICE": "/static/enrollment/invoices/UTL_CLGS.jpg",
+        "BUDGET_AVAILABILITY": null,
+        "EMPTY_VALUE": "This field is required.",
+        "MAX_LENGTH": "15"
+      }
+    },
+    "BILLING_ADDRESS_LINE1": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "MIN_LENGTH": "4",
+      "ERROR_MESSAGE": "Field requires between 4 and 50 characters.",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ~!=$^`@%\"]+",
+      "NOT_VALID": "The billing address provided is not a valid postal address. Please call us at 1-866-258-3782 to continue your enrollment.",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "50"
+    },
+    "BILLING_ADDRESS_LINE2": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ~!=$^`@%\"]+",
+      "ERROR_MESSAGE": "Field requires between 4 and 50 characters.",
+      "MIN_LENGTH": "1",
+      "MAX_LENGTH": "50"
+    },
+    "BILLING_CITY": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "MIN_LENGTH": "2",
+      "ERROR_MESSAGE": "Field requires between 2 and 50 characters.",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ()~!*&=$^`@%/\"]+",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "50"
+    },
+    "BILLING_STATE": {
+      "EMPTY_VALUE": "This field is required."
+    },
+    "BILLING_ZIP_CODE": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "ERROR_MESSAGE": "Field requires 5 characters.",
+      "PATTERN": "[0-9]*",
+      "MIN_LENGTH": "5",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "5"
+    },
+    "CONSENT_LANGUAGE": {
+      "value": "By providing my telephone number and checking this box, I agree that AEP Energy and entities calling on its behalf may make calls to the telephone number provided regarding AEP Energy services, my account, amounts due, and special promotions, including calls made using an automatic telephone dialing system. I understand that I am not required to agree to receive such calls as a condition of receiving electric or natural gas supply, or participating in any of AEP Energy's programs.",
+      "version": "v0003"
+    },
+    "EMAIL_ADDRESS": {
+      "PATTERN_ERROR": "Please enter a valid e-mail address.",
+      "EMAIL_ADDRESS_ALREADY_EXIST": "E-mail address belongs to another registered user. Please log in to your account by clicking here to view your available options (here as a link redirecting to the account management portal with the username entered).",
+      "PATTERN": "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,3}$",
+      "MIN_LENGTH": "5",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "60"
+    },
+    "FIRST_NAME": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "ERROR_MESSAGE": "First name must be between 2-20 characters.",
+      "MIN_LENGTH": "2",
+      "PATTERN": "[^0-9<>()ñíóúáéÑÍÓÚÁÉ&=#$^%*~!`@\"]+",
+      "EMPTY_VALUE": "Please provide your first name.",
+      "MAX_LENGTH": "20"
+    },
+    "LAST_NAME": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "ERROR_MESSAGE": "Last name must be between 2-37 characters.",
+      "PATTERN": "[^0-9<>()ñíóúáéÑÍÓÚÁÉ&=#$^%*~!`@\"]+",
+      "MIN_LENGTH": "2",
+      "EMPTY_VALUE": "Please provide your last name.",
+      "MAX_LENGTH": "37"
+    },
+    "PASSWORD": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "MIN_LENGTH": "6",
+      "PATTERN": "[A-Za-z0-9.@_-~#&]+",
+      "ERROR_MESSAGE": "Password must be between 6-20 characters.",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "20"
+    },
+    "PHONE": {
+      "PATTERN": "[0-9]*",
+      "MIN_LENGTH": "10",
+      "EMPTY_VALUE": "Please provide your complete phone number (digits only).",
+      "MAX_LENGTH": "10"
+    },
+    "SECURITY_ANSWER": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "MIN_LENGTH": "2",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ~!=$^`@%\"]+",
+      "ERROR_MESSAGE": "Security question answer must be between 2-60 characters.",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "60"
+    },
+    "SECURITY_QUESTION": {
+      "VALUES": [
+        {
+          "id": 17,
+          "value": "Make or model of your first car?"
+        },
+        {
+          "id": 18,
+          "value": "Middle name of your father?"
+        },
+        {
+          "id": 19,
+          "value": "Name of your first school?"
+        },
+        {
+          "id": 20,
+          "value": "Name of street you grew up on?"
+        },
+        {
+          "id": 21,
+          "value": "Name of your favorite teacher?"
+        }
+      ],
+      "EMPTY_VALUE": "This field is required."
+    },
+    "SERVICE_ADDRESS_LINE1": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "ERROR_MESSAGE": "Field requires between 4 and 50 characters.",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ~!=$^`@%\"]+",
+      "MIN_LENGTH": "4",
+      "NOT_VALID": "The billing address provided is not a valid postal address. Please call us at 1-866-258-3782 to continue your enrollment.",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "50"
+    },
+    "SERVICE_ADDRESS_LINE2": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ~!=$^`@%\"]+",
+      "ERROR_MESSAGE": "Field requires between 4 and 50 characters.",
+      "MIN_LENGTH": "1",
+      "MAX_LENGTH": "50"
+    },
+    "SERVICE_CITY": {
+      "PATTERN_ERROR": "Field contains invalid characters. Please remove any symbols and punctuation.",
+      "ERROR_MESSAGE": "Field requires between 2 and 50 characters.",
+      "PATTERN": "[^<>=ñíóúáéÑÍÓÚÁÉ()~!*&=$^`@%/\"]+",
+      "MIN_LENGTH": "2",
+      "EMPTY_VALUE": "This field is required.",
+      "MAX_LENGTH": "50"
+    },
+    "SERVICE_STATE": {
+      "PRESELECTED": "46",
+      "EMPTY_VALUE": "This field is required."
+    },
+    "SERVICE_ZIP_CODE": {},
+    "STATES_LIST": {
+      "VALUES": [
+        {
+          "id": 14,
+          "stateName": "Alaska",
+          "postalCode": "AK"
+        },
+        {
+          "id": 13,
+          "stateName": "Alabama",
+          "postalCode": "AL"
+        },
+        {
+          "id": 16,
+          "stateName": "Arkansas",
+          "postalCode": "AR"
+        },
+        {
+          "id": 62,
+          "stateName": "American Samoa",
+          "postalCode": "AS"
+        },
+        {
+          "id": 15,
+          "stateName": "Arizona",
+          "postalCode": "AZ"
+        },
+        {
+          "id": 17,
+          "stateName": "California",
+          "postalCode": "CA"
+        },
+        {
+          "id": 18,
+          "stateName": "Colorado",
+          "postalCode": "CO"
+        },
+        {
+          "id": 19,
+          "stateName": "Connecticut",
+          "postalCode": "CT"
+        },
+        {
+          "id": 75,
+          "stateName": "District of Columbia",
+          "postalCode": "DC"
+        },
+        {
+          "id": 20,
+          "stateName": "Delaware",
+          "postalCode": "DE"
+        },
+        {
+          "id": 21,
+          "stateName": "Florida",
+          "postalCode": "FL"
+        },
+        {
+          "id": 63,
+          "stateName": "Federated States of Micronesia",
+          "postalCode": "FM"
+        },
+        {
+          "id": 22,
+          "stateName": "Georgia",
+          "postalCode": "GA"
+        },
+        {
+          "id": 64,
+          "stateName": "Guam",
+          "postalCode": "GU"
+        },
+        {
+          "id": 23,
+          "stateName": "Hawaii",
+          "postalCode": "HI"
+        },
+        {
+          "id": 26,
+          "stateName": "Iowa",
+          "postalCode": "IA"
+        },
+        {
+          "id": 24,
+          "stateName": "Idaho",
+          "postalCode": "ID"
+        },
+        {
+          "id": 1,
+          "stateName": "Illinois",
+          "postalCode": "IL"
+        },
+        {
+          "id": 25,
+          "stateName": "Indiana",
+          "postalCode": "IN"
+        },
+        {
+          "id": 27,
+          "stateName": "Kansas",
+          "postalCode": "KS"
+        },
+        {
+          "id": 28,
+          "stateName": "Kentucky",
+          "postalCode": "KY"
+        },
+        {
+          "id": 29,
+          "stateName": "Louisiana",
+          "postalCode": "LA"
+        },
+        {
+          "id": 32,
+          "stateName": "Massachusetts",
+          "postalCode": "MA"
+        },
+        {
+          "id": 31,
+          "stateName": "Maryland",
+          "postalCode": "MD"
+        },
+        {
+          "id": 30,
+          "stateName": "Maine",
+          "postalCode": "ME"
+        },
+        {
+          "id": 65,
+          "stateName": "Marshall Islands",
+          "postalCode": "MH"
+        },
+        {
+          "id": 33,
+          "stateName": "Michigan",
+          "postalCode": "MI"
+        },
+        {
+          "id": 34,
+          "stateName": "Minnesota",
+          "postalCode": "MN"
+        },
+        {
+          "id": 36,
+          "stateName": "Missouri",
+          "postalCode": "MO"
+        },
+        {
+          "id": 66,
+          "stateName": "Northen Mariana Islands",
+          "postalCode": "MP"
+        },
+        {
+          "id": 35,
+          "stateName": "Mississippi",
+          "postalCode": "MS"
+        },
+        {
+          "id": 37,
+          "stateName": "Montana",
+          "postalCode": "MT"
+        },
+        {
+          "id": 44,
+          "stateName": "North Carolina",
+          "postalCode": "NC"
+        },
+        {
+          "id": 45,
+          "stateName": "North Dakota",
+          "postalCode": "ND"
+        },
+        {
+          "id": 38,
+          "stateName": "Nebraska",
+          "postalCode": "NE"
+        },
+        {
+          "id": 40,
+          "stateName": "New Hampshire",
+          "postalCode": "NH"
+        },
+        {
+          "id": 41,
+          "stateName": "New Jersey",
+          "postalCode": "NJ"
+        },
+        {
+          "id": 42,
+          "stateName": "New Mexico",
+          "postalCode": "NM"
+        },
+        {
+          "id": 39,
+          "stateName": "Nevada",
+          "postalCode": "NV"
+        },
+        {
+          "id": 43,
+          "stateName": "New York",
+          "postalCode": "NY"
+        },
+        {
+          "id": 46,
+          "stateName": "Ohio",
+          "postalCode": "OH"
+        },
+        {
+          "id": 47,
+          "stateName": "Oklahoma",
+          "postalCode": "OK"
+        },
+        {
+          "id": 48,
+          "stateName": "Oregon",
+          "postalCode": "OR"
+        },
+        {
+          "id": 49,
+          "stateName": "Pennsylvania",
+          "postalCode": "PA"
+        },
+        {
+          "id": 68,
+          "stateName": "Puerto Rico",
+          "postalCode": "PR"
+        },
+        {
+          "id": 67,
+          "stateName": "Palau",
+          "postalCode": "PW"
+        },
+        {
+          "id": 50,
+          "stateName": "Rhode Island",
+          "postalCode": "RI"
+        },
+        {
+          "id": 51,
+          "stateName": "South Carolina",
+          "postalCode": "SC"
+        },
+        {
+          "id": 52,
+          "stateName": "South Dakota",
+          "postalCode": "SD"
+        },
+        {
+          "id": 53,
+          "stateName": "Tennessee",
+          "postalCode": "TN"
+        },
+        {
+          "id": 54,
+          "stateName": "Texas",
+          "postalCode": "TX"
+        },
+        {
+          "id": 55,
+          "stateName": "Utah",
+          "postalCode": "UT"
+        },
+        {
+          "id": 57,
+          "stateName": "Virginia",
+          "postalCode": "VA"
+        },
+        {
+          "id": 69,
+          "stateName": "Virgin Islands",
+          "postalCode": "VI"
+        },
+        {
+          "id": 56,
+          "stateName": "Vermont",
+          "postalCode": "VT"
+        },
+        {
+          "id": 58,
+          "stateName": "Washington",
+          "postalCode": "WA"
+        },
+        {
+          "id": 60,
+          "stateName": "Wisconsin",
+          "postalCode": "WI"
+        },
+        {
+          "id": 59,
+          "stateName": "West Virginia",
+          "postalCode": "WV"
+        },
+        {
+          "id": 61,
+          "stateName": "Wyoming",
+          "postalCode": "WY"
+        }
+      ]
+    }
+  }
+}

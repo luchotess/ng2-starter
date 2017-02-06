@@ -1,0 +1,13 @@
+{
+  "errors": null,
+  "responseData": {
+    "checkoutItems": [
+      {
+        "confirmationCode": "E19144",
+        "commodity": "ELECTRICAL",
+        "shoppingCartGroupId": 9613
+      }
+    ],
+    "congratulationsText": "You may rescind your agreement within ten (10) calendar days after your local utility processes your enrollment request by contacting either your local utility or AEP Energy at the toll free phone number listed below."
+  }
+}
